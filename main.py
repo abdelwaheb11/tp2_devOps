@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 import random
-=======
+
 def insert_into_sorted_table(table, value):
     for i in range(len(table)):
         if value < table[i]:
@@ -16,7 +15,7 @@ def bubble_sort(table):
             if table[j] > table[j+1]:
                 # Swap the elements
                 table[j], table[j+1] = table[j+1], table[j]
->>>>>>> 4ee250bbf78990abcaaeada15b3f3760437fe101
+
 
 def create_table(size):
     return [random.randint(0, 100) for _ in range(size)]
