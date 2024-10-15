@@ -1,9 +1,4 @@
-def bubble_sort(table):
-    n = len(table)
-    for i in range(n):
-        for j in range(0, n-i-1):
-            if table[j] > table[j+1]:
-                # Swap the elements
-                table[j], table[j+1] = table[j+1], table[j]
+import random
 
-t=[2,5,8,9,97,6,5,48,31,86,844,318,684,354,48,6,8,24,9]
+def create_table(size):
+    return [random.randint(0, 100) for _ in range(size)]
