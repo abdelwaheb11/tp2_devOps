@@ -7,3 +7,4 @@ def bubble_sort(table):
                 table[j], table[j+1] = table[j+1], table[j]
 
 t=[2,5,8,9,97,6,5,48,31,86,844,318,684,354,48,6,8,24,9]
+print("hello")
